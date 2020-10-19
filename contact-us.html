@@ -19,7 +19,6 @@
       href="css/desktop.css"
     />
 
-    <link rel="stylesheet" href="css/mobileForm.css" />
   </head>
   <body>
     <div class="container">
@@ -77,15 +76,11 @@
             <form action="thank-you.html" method="get">
               <div>
                 <label for="surname">Surname</label>
-                <input type="text" name="surname" id="surname" />
+                <input type="text" name="surname" id="surname" required placeholder="Enter surname" />
               </div>
               <div>
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" required />
-              </div>
-              <div>
-                <label for="dob">Date of Birth</label>
-                <input type="date" name="dob" id="dob">
               </div>
               <div>
                 <label for="comments">Comments</label>
@@ -97,10 +92,15 @@
                 ></textarea>
               </div>
 
+              <div>
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob">
+              </div>
+
               <div class="inlineLabels">
                 <p>Gender</p>
                 <label for="male">Male</label>
-                <input type="radio" name="gender" id="male" value="m" />
+                <input type="radio" name="gender" id="male" value="m"  />
                 <label for="female">Female</label>
                 <input type="radio" name="gender" id="female" value="f" />
                 <label for="other">Prefer not to say</label>
@@ -112,7 +112,7 @@
                 <select name="marketing" id="marketing">
                   <option value="Web">Web</option>
                   <option value="newspaper">Ad in Newspaper</option>
-                  <option value="Friend">Friend</option>
+                  <option value="Friend" selected>Friend</option>
                   <option value="Other">Other</option>
                 </select>
               </div>
