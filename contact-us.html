@@ -74,14 +74,18 @@
           <div class="form">
             <!--			form here-->
 
-            <form action="">
+            <form action="thank-you.html" method="get">
               <div>
                 <label for="surname">Surname</label>
                 <input type="text" name="surname" id="surname" />
               </div>
               <div>
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" />
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob">
               </div>
               <div>
                 <label for="comments">Comments</label>
@@ -107,6 +111,7 @@
                 <label for="marketing">How did you hear about us?</label>
                 <select name="marketing" id="marketing">
                   <option value="Web">Web</option>
+                  <option value="newspaper">Ad in Newspaper</option>
                   <option value="Friend">Friend</option>
                   <option value="Other">Other</option>
                 </select>
