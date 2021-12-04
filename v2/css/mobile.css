@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.headerContainer {
+  background: rgba(0, 0, 0, 0.8);
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header h2 {
+  color: #fff;
+  margin: 0;
+}
+header div {
+  padding: 10px;
+}
+/* .burgerMenuContainer {
+} */
+nav {
+  flex: 1 1 100%;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+nav ul li {
+  padding: 8px 5px;
+  border-bottom: 1px solid #ccc;
+}
+main {
+  /*  not understood by ie11 so make a block */
+  display:block;
+  margin: 10px;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+.articles > div {
+  flex: 1 2 50%;
+  padding-right: 10px;
+}
+
+.articles img {
+  width: 100%;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 40px;
+  padding: 40px;
+}
+footer > div > p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+}

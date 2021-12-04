@@ -1,0 +1,15 @@
+#container{
+	min-width:800px;
+}
+.boxContent{
+	padding:170px 10px 10px 10px
+}
+#box1{
+	background: url(../images/manhole150.jpg) no-repeat 10px 10px;
+}
+#box2{
+	background: url(../images/art-deco-architecture150.jpg) no-repeat 10px 10px;
+}
+#box3{
+	background: url(../images/vat-pic150.jpg) no-repeat 10px 10px;
+}

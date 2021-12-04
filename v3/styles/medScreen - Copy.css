@@ -1,0 +1,61 @@
+/* Layout Medium Screens */
+#container{
+	border-radius:0px;
+	margin:0 auto;
+	/*min-width:auto;*/
+}
+header{
+	border-top-left-radius:0px;	
+	border-top-right-radius:0px;	
+	height: 150px;
+	background: url(../images/mediumBanner.jpg) no-repeat 90% 0px;
+	background-size:980px 150px;
+}
+#logo{
+	color:#fff;
+	font-size:0.8em;
+	position:absolute;
+	top:50px;
+	left:200px;	
+}
+nav {
+	top: 150px;
+	background-color:#8AA6A6;
+}
+#menu{
+	display:none;		
+}
+nav ul{
+	display:block;	
+}
+nav li a:hover{
+	transition:all 0.25s ease-in;
+	background-color:#9AD9C7;
+	color:#000000;
+}
+.three-column {
+	padding: 0px 20px 15px 20px;
+}
+.boxContent{
+	padding:170px 10px 10px 10px
+}
+#box1{
+	background: url(../images/manhole150.jpg) no-repeat 10px 10px;
+}
+#box2{
+	background: url(../images/art-deco-architecture150.jpg) no-repeat 10px 10px;
+}
+#box3{
+	background: url(../images/vat-pic150.jpg) no-repeat 10px 10px;
+}
+@media
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (   min--moz-device-pixel-ratio: 2),
+	only screen and (     -o-min-device-pixel-ratio: 2/1),
+	only screen and (        min-device-pixel-ratio: 2),
+	only screen and (                min-resolution: 192dpi),
+	only screen and (                min-resolution: 2dppx)
+{
+	header { background-image: url(../images/mediumBannerx2.jpg); }
+}
+

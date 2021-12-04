@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1">
+<title>Interaction :: Web Application Development</title>
+<link rel="stylesheet" type="text/css" href="styles/base.css" />
+<link rel="stylesheet" type="text/css" href="styles/form.css" />
+<link rel="stylesheet" type="text/css" href="styles/largeScreen.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:601px) and (max-width:980px)"  href="styles/medScreen.css">
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:601px) and (max-width:980px)"  href="styles/medScreenForm.css">
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:600px)"   href="styles/smallScreen.css">
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:600px)"   href="styles/smallScreenForm.css">
+
+</head>
+<body>
+<div id="container">
+	<header>
+			<div id="logo">
+				<h1>Web Application Development</h1>
+			</div>
+       		<nav>
+            <a href="#" id="menu">Menu</a>
+        	<ul>
+<li><a href="index.html" title="Home">Home</a></li><li><a href="structure.html">HTML</a></li><li><a href="presentation.html">CSS</a></li><li><a href="interaction.html">Javascript</a></li><li><a href="contact-us.html">Contact Us</a></li>
+			</ul>
+			</nav>
+	</header>
+	<div id="page">
+		<div id="content">
+			<h2>Contact Us</h2>
+			<p>Any budding web designer or web developers needs to grasp the concept of the 'big' three.  These are the core open standard skills that will enable to build beautiful looking, dynamic web pages as well as mobile applications.</p>
+			<form method="post" action="">
+ <fieldset>
+        <legend>Personal Details</legend>
+        <p>
+            <label for="firstname">First name</label>
+            <input type="text" name="" id="firstname" placeholder="Enter First Name" />   
+        </p>   
+        <p>
+
+            <label for="surname">Surname</label>
+            <input type="text" name="" id="surname" placeholder="Enter Surname" />   
+        </p>    
+        <p>
+            <label for="Email">Email</label>
+            <input type="email" name="" id="Email" placeholder="Enter Email Address" required />   
+        </p>  
+        <p>
+            <label for="Tel">Contact Telephone</label>
+            <input type="tel" name="" id="Tel" required />   
+        </p>  
+        <p>
+            <label for="mem">Membership Number</label>
+            <input type="number" name="" id="mem" disabled="disabled" />   
+        </p> 
+        <p>
+            <label for="rate">Rate the site</label>
+            0
+            <input type="range" name=""  min="1" max="10" id="rate"  />   
+            10
+        </p> 
+        <p>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="" id="dob" />   
+        </p> 
+        <p>
+            <label for="colour">Favourite Colour</label>
+            <input type="color" name="" id="colour" />   
+        </p> 
+        <p>
+        <span class="radioFauxLabel">Gender</span>
+			<input name="gender" type="radio" class="inline" id="Male" value="m"/> 
+          <label class="radioLabel" for="Male">Male</label>
+            <input name="gender" type="radio" class="inline" id="Female" value="f" />
+          <label class="radioLabel" for="Female">Female</label>
+            
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Feedback</legend>
+
+        <p>
+            <label for="comments">Leave us your comments</label>
+            <textarea name="comments" id="comments"></textarea>
+        </p>
+     </fieldset>
+     <fieldset>
+        <legend>Marketing</legend>
+
+        <p>
+            <label for="mailingList">Join mailing list</label>
+            <input type="checkbox" name="list" id="mailingList" value="1" checked="checked" />
+        </p>
+        <p>
+            <label for="marketing">How did you hear about us?</label>
+            <select name="marketing" id="marketing">
+              <option value="Web">Web</option>
+
+              <option value="Friend">Friend</option>
+              <option value="Other">Other</option>
+            </select>
+        </p>
+        <p>
+            <label for="press">What paper do you read?</label>
+        	<input list="press" />
+				<datalist id="press">
+  				<option value="Sheffield Star">
+                <option value="The Independent">
+                <option value="The Guardian">
+                <option value="The Telegraph">
+ 				<option value="The Times">
+ 				<option value="The Daily Mail"> 
+                <option value="The Daily Express"> 				
+                <option value="The Sun (I have difficulty reading)"> 			
+  				<option value="Safari">
+				</datalist>
+        </p>
+    </fieldset>
+    <fieldset>
+    <legend>Search</legend>
+    <p>
+            <label for="search">Search</label>
+            <input type="search" name="" id="search" />   
+        </p>  
+    </fieldset>
+    
+    <p>
+    	<input type="submit" value="Send" class="sendButton" />
+    </p>
+
+</form>
+
+		</div>
+		
+	</div>
+	
+    <script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

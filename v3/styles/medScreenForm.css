@@ -1,0 +1,6 @@
+label, .radioFauxLabel{
+  width:40%;
+}
+input[type='text'], input[type='email'], input[type='tel'], input[type='number'], textarea{
+	width:auto;
+}

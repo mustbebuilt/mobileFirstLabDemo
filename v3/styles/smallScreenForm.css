@@ -1,0 +1,41 @@
+form{
+	padding:0;
+	margin:0;	
+}
+form p{
+	padding:0;
+	margin:0;	
+}
+fieldset{
+  	margin:0 0 15px 0;
+	padding:0 0 15px 0;
+	border:none;
+	border-bottom:4px solid #ccc;
+}
+legend{
+	padding:0;
+	margin:0;
+  	text-align:left;
+  	font-weight:bold;
+}
+label, .radioFauxLabel{
+  float:none;
+  display:block;
+  width:auto;
+  margin-right:0;
+  padding-top:0.2em;
+  text-align:left;
+  font-weight:bold;
+}
+input[type='text'], input[type='email'], input[type='tel'], input[type='number'], input[type='submit'], textarea{
+	font-size:1.1em;
+	width:95%;
+}
+input:focus{
+	background-color:#CAF2A2
+}
+label.radioLabel{
+	float: none;
+  	display: inline;
+  	width: auto;
+}

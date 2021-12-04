@@ -1,0 +1,89 @@
+/* Layout Medium Screens */
+#container{
+	border-radius:0px;
+	margin:0 auto;
+}
+header{
+	border-top-left-radius:0px;	
+	border-top-right-radius:0px;	
+	background: url(../images/smlBanner.jpg) no-repeat 90% 0px;
+	height:auto;
+	position:static;
+	background-size:600px 150px;
+}
+#logo{
+	position:static;
+	padding:55px 2px 2px 2px;
+	margin:0 0 50px 0;
+	font-size:0.8em;
+	background:none;
+}
+h1{
+	font-size:1.5em;	
+}
+h2{
+	font-size:1.25em;	
+}
+h3{
+	font-size:1.15em;	
+}
+nav {
+	position:static;
+	height:auto;
+	padding: 10px 0px 10px 0px;
+	background-color: #15384C;
+}
+#menu{
+	display:block;
+	margin:5px 0 10px 15px;	
+	padding:0 0 0 20px;
+	background: url(../images/whiteNavicon.png) no-repeat 0;	
+	background-size: 15px 15px;
+}
+#content{
+	padding: 10px 20px 10px 20px;
+}
+nav ul{
+	display:none;
+	margin:0;
+	padding:0;
+}
+nav ul li{
+	display:block;
+	margin: 0 15px 15px 15px;
+	padding: 0px;
+	color: #a6abc5;
+	border: 1px solid #ffffff;
+}
+nav ul li a:link, nav ul li a:visited{
+	color:#ffffff;	
+}
+.three-column {
+	padding: 0px;
+}
+.three-column .box {
+	width: auto;
+	float: none;
+	padding: 10px 0px 0px 0px;
+	border-top: 1px solid #ccc;
+}
+.boxContent{
+	padding: 0px 20px;
+}
+#box1, #box2, #box3{
+	background: none;
+}
+#menu:link, #menu:visited, #menu:hover, #menu:active{
+	color:#fff;
+	text-decoration:none;
+}
+@media
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (   min--moz-device-pixel-ratio: 2),
+	only screen and (     -o-min-device-pixel-ratio: 2/1),
+	only screen and (        min-device-pixel-ratio: 2),
+	only screen and (                min-resolution: 192dpi),
+	only screen and (                min-resolution: 2dppx)
+{
+	header { background-image: url(../images/smlBannerx2.jpg); }
+}
